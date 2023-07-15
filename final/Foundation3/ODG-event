@@ -1,0 +1,16 @@
+using System;
+
+class OutdoorGatheringEvent : Event
+{
+    private string _weatherForecast;
+
+    public OutdoorGatheringEvent(string title, string description, DateTime date, string street, string city, string weatherForecast) 
+    {
+        
+    }
+
+    public override string GetFullDetails()
+    {
+    
+    }
+}
