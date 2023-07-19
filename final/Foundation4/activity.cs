@@ -1,9 +1,9 @@
 using System;
 
-class Activity
+public class Activity
 {
-    private DateTime _date;
-    private int _minutes;
+    protected DateTime _date;
+    protected int _minutes;
 
     public Activity(DateTime date, int minutes)
     {
